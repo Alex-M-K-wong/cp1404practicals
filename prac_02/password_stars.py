@@ -13,7 +13,7 @@ def main():
 
 
 def print_the_asterisks(password):
-     """Print asterisks matching the length of the password."""
+    """Print asterisks matching the length of the password."""
     print("*" * len(password))
 
 
