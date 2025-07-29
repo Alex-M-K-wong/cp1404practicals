@@ -17,7 +17,8 @@ BoxLayout:
                 text:'Down'
     Button:
         text: 'Convert miles to km'
+        on_release: app.handle_calculate()
     Label:
         id: output_label
-        text: ''
+        text: app.message
 
